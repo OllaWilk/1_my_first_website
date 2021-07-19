@@ -10,6 +10,7 @@ body {
   color: #3d3d3d;
   font-size: 16px;
   line-height: 1.7;
+  font-family: "Quattrocento", serif;
 }
 
 .container {
@@ -26,6 +27,7 @@ section {
   position: relative;
   font-size: 36px;
   margin: 0 0 60px 0;
+  font-family: "Fanwood Text", serif;
 }
 
 .section-title::after {
@@ -72,6 +74,7 @@ section {
   color: #fff;
   font-size: 60px;
   margin: 48px 0 0 0;
+  font-family: "Fanwood Text", serif;
 }
 
 .splash .page-title::after {
