@@ -30,6 +30,23 @@ section {
     padding: 108px;
 }
 
+.section-title {
+    position: relative;
+    font-size: 36px;
+    margin: 0 0 60px 0;
+
+    &::after {
+        position: absolute;
+        content: '';
+        bottom: -12px;
+        left: 50%;
+        width: 50px;
+        height: 8px;
+        transform: translateX(-50%);
+            background-color: $color-main;
+    }
+}
+
 /* Splash */
 
 .splash {
@@ -96,4 +113,10 @@ section {
         border-top: solid 1px;
         border-bottom: solid 1px;
     }
+}
+
+/* About */
+
+.about {
+    background: #e9e7e7f8;
 }
