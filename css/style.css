@@ -18,7 +18,7 @@ body {
   padding: 0 20px;
 }
 
-.section {
+section {
   padding: 108px;
 }
 
@@ -27,7 +27,7 @@ body {
   height: 100vh;
   position: relative;
   background-image: url("https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1598&q=80");
-  background-position: top center;
+  background-position: bottom center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -72,5 +72,19 @@ body {
   color: #fff;
   font-size: 20px;
   margin: 48px 0 0 0;
+}
+
+/* Intro */
+.intro {
+  background-color: #fff;
+}
+
+.intro p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 48px 0;
+  font-size: 24px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
 }
 /*# sourceMappingURL=style.css.map */
