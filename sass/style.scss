@@ -238,6 +238,16 @@ section {
 }
 
 /*Contakt*/
+.contact-inner {
+    .section-title {
+
+        &::after {
+            background-color: $color-second;
+        }
+    }
+
+}
+
 .contact {
     height: 500px;
     background: $color-dark;

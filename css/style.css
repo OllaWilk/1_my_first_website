@@ -220,6 +220,10 @@ section {
 }
 
 /*Contakt*/
+.contact-inner .section-title::after {
+  background-color: #b7ccc0;
+}
+
 .contact {
   height: 500px;
   background: #2c3e50;
