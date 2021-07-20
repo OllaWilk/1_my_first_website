@@ -1,4 +1,120 @@
-h1 {
-  font-size: 55px;
+/* Global */
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Quattrocento", serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 108px;
+}
+
+.section-title {
+  position: relative;
+  font-size: 36px;
+  margin: 0 0 60px 0;
+  font-family: "Fanwood Text", serif;
+}
+
+.section-title::after {
+  position: absolute;
+  content: '';
+  bottom: -12px;
+  left: 50%;
+  width: 50px;
+  height: 8px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #004720e8;
+}
+
+/* Splash */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1598&q=80");
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.splash .splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.splash i {
+  font-size: 40px;
+  background: #004720e8;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.splash .page-title {
+  color: #fff;
+  font-size: 60px;
+  margin: 48px 0 0 0;
+  font-family: "Fanwood Text", serif;
+}
+
+.splash .page-title::after {
+  position: absolute;
+  content: '';
+  bottom: 60px;
+  left: 50%;
+  width: 100px;
+  height: 8px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #004720e8;
+}
+
+.splash .page-subtitle {
+  color: #fff;
+  font-size: 20px;
+  margin: 48px 0 0 0;
+}
+
+/* Intro */
+.intro {
+  background-color: #fff;
+}
+
+.intro p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 48px 0;
+  font-size: 24px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+/* About */
+.about {
+  background: #e9e7e7f8;
 }
 /*# sourceMappingURL=style.css.map */

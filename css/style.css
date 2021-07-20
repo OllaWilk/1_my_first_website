@@ -110,6 +110,112 @@ section {
 
 /* About */
 .about {
-  background: #e9e7e7f8;
+  background: #b7ccc0;
+}
+
+/*Skils*/
+.skill-left, .skill-right {
+  position: relative;
+  height: 500px;
+}
+
+.skill-image {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.skill-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.skill-right .skill-image {
+  right: 0;
+}
+
+.skill-right .skill-description {
+  padding: 36px 55% 36px 0;
+  text-align: right;
+}
+
+.skill-left .skill-description {
+  padding: 36px 0 36px 55%;
+  text-align: left;
+}
+
+/*Gallery*/
+.gallery {
+  padding: 0;
+}
+
+.gallery::before, .gallery::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.gallery-tile {
+  position: relative;
+  float: left;
+  width: 33.3333%;
+}
+
+.gallery-tile::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  content: '';
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.6s;
+}
+
+.gallery-tile:hover::after {
+  opacity: 0.5;
+}
+
+.gallery-tile img {
+  float: left;
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery-tile:hover .gallery-content {
+  z-index: 1;
+  opacity: 1;
+}
+
+.gallery-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.gallery-button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  font-size: 14px;
+  font: uppercase;
+  background: #004720e8;
+  color: #fff;
+  cursor: pointer;
+}
+
+.gallery-title {
+  color: #fff;
+  letter-spacing: 3px;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
