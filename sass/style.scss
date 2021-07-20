@@ -233,5 +233,47 @@ section {
     color: $color-light;
     letter-spacing: 3px;
     margin: 0;
+
+
 }
 
+/*Contakt*/
+.contact {
+    height: 500px;
+    background: $color-dark;
+    position: relative;
+    margin-top: 30px;
+}
+
+.contact-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    width: 300px;
+
+    .section-title {
+    color: white;
+    }
+}
+
+input, textarea {
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    width: 100%;
+    outline: 1px solid;
+    border: none;
+}
+
+
+
+/*Fotter*/
+.page-footer {
+
+    p{
+        margin:0;
+        background-color: rgb(54, 54, 54);
+        color: white;
+        padding: 10px;
+    }
+}
