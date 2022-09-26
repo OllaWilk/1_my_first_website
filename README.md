@@ -1,5 +1,5 @@
 # Site is published at
-https://ollawilk.github.io/1_landingPage_florist/
+https://ollawilk.github.io/1_my_first_website/
 
 
 ## Screenshots
