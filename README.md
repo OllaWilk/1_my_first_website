@@ -1,95 +1,53 @@
-# 🌻 My first static website for florists
+# 🌸 Responsive Web Design - Practical Application of HTML and CSS
+This project involved creating a comprehensive website using my skills in HTML5 and CSS, focusing on responsiveness and semantics. It was part of my learning experience in a bootcamp, emphasizing the practical application of HTML and CSS to build modern and functional web pages.
 
-Live demo of the project:
-[https://ollawilk.github.io/Training01_my_first_website/](https://ollawilk.github.io/Training01_my_first_website/)
-
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Project structure](#project-structure)
-* [Installation project](#installation-project)
-* [Status](#status)
-* [Screenshots](#screenshots)
-* [Experience](#experience)
-* [Notes](#notes)
-* [Contact](#contact)
-
-## General info
-This is a simple static website for a flower shop. I coded this website to learn HTML and CSS languages. 
-
-## Technologies
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge&logoHeight=40)
-![Sass](https://img.shields.io/badge/-sass-CC6699?logo=html5&logoColor=white&style=for-the-badge&logoHeight=40)
-
-## Project structure 
-```
-Training01_my_first_website/
-├── css/
-│   └── style.css
-│   └── style.css.map
-├── images
-├── sass/
-│   ├── style.css
-│   ├── style.css.map
-│   └── style.scss
-├── .gitignore
-├── .index.html
-├── .gitignore
-├── package.json
-├── package-lock.json
-└── README.md
-```
-
-##  Installation project
-**Clone the project:**
-```
-git clone https://github.com/OllaWilk/Training01_my_first_website.git
-```
-**Go to the project directory:**
-```
-cd Training01_my_first_website
-```
-**Install dependencies:**
-```
-npm install
-```
-**Start the server:**
-```
-npm run watch
-```
-
-## Status
-Project is: finished.
-
-It was meant to be a simple page to see if I enjoy coding and I did. 
+## 🙋🏼‍♀️ **Live demo:**
+[https://ollawilk.github.io/my-first-website/](https://ollawilk.github.io/my-first-website/)
 
 ## Screenshots
 ![Screenshot](images/screenshot.png)
+*Images used in project are from rawpixel.com 
 
-## Experience
+## ☘️ Technologies
+![HTML5]( https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![SCSS](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+Font Awesome: Adding icons with the Font Awesome library.
+
+Google Fonts: Applying custom fonts from Google Fonts.
+
+## 🌻 Key Features:
+
+1. Navigation: Using the <nav> tag for intuitive site navigation.
+2. Header: Creating an engaging introduction to the site with the <header> tag.
+3. Sections: Dividing content into logical sections using <section> and <div>, enhancing site navigation.
+4. Footer: Adding a site footer with <footer>, containing additional information and contact details.
+5. Contact Form: Implementing a contact form with input validation.
+
+
+## 🌺 Project structure
+
+The project consists of several key sections, including a header, welcome section, gallery, contact form, and footer. Each section has been carefully designed and implemented with the best web practices in mind.
+
+## 🌹 Installation and Launch
+
+The website does not require installation.
+
+## :racehorse: Project Status 
+Project is: finished.
+
+
+## 🤓 Summary 
 This is a website that taught me the basics of coding. 
 
 Now I am able to:
-* Distinguish between the functions of HTML and CSS/scss in building web pages.
-* List the essential HTML tags required for a functioning website.
-* Write the structure of a simple website.
-* Apply appropriate styles to elements using class and tag selectors.
-* Use complex CSS selectors.
-* Understand the relationship between an HTML element and its selector in CSS.
-
-## Notes
-
-
-**Installed packages**
-* autoprefixer-cli - converts the CSS file by adding prefixes required by some browsers. It reads the style.css file and saves the result to the style.prefixed.css file.
-* node-sass - performs the conversion of .scss files to .css and also minifies the CSS file.
+1. HTML5 Semantics: Understanding and applying semantic HTML tags to structure web content logically and accessibly.
+2. CSS3 Styling and Layout: Mastering CSS for styling, including text formatting, colors, and layout techniques to create visually appealing web pages.
+3. Responsive Web Design: Learning how to make web pages look good on all devices by using responsive design techniques.
+4. SCSS/Sass: Gaining proficiency in using SCSS, a powerful CSS preprocessor that simplifies writing CSS with variables, nesting, and more.
+5. Web Standards and Best Practices: Adopting best practices for web development, focusing on site accessibility, performance, and compatibility.
+6. Form Validation: Implementing basic input validation in contact forms to enhance user interaction and data quality.
+7. Using External Libraries and Fonts: Incorporating external resources such as Font Awesome icons and Google Fonts into your web projects for enhanced design flexibility.
 
 
-**Copyright**
-
-Images used in project are from rawpixel.com
-
-##  Contact
-📬 Created by Aleksandra Wilk - feel free to cotact me!
- [aleksandra.wilk.letkiewicz@gmail.com](mailto:aleksandra.wilk.letkiewicz@gmail.com)
 
